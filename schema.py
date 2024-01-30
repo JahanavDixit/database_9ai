@@ -8,7 +8,6 @@ class Schema:
         self.db = self.client[database_name]
         self.schema = schema
         self.col_name = col_name
-        #self._create_collection()
 
     def _create_collection(self):
         validator = {'$jsonSchema': {'bsonType': 'object', 'properties': {}}}
