@@ -2,7 +2,7 @@ from typing import TypedDict, Optional
 from pymongo import MongoClient
 from schema import Schema
 from pymongo.collection import Collection
-from define_schema import thread_schema
+from connect import thread_schema
 
 class Thread:
     def __init__(self, id:str, name:str , value:int ):

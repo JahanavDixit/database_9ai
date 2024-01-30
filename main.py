@@ -1,10 +1,7 @@
 from typing import Optional
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pymongo import MongoClient
-from schema import Schema
-from pymongo.collection import Collection
-from define_schema import *
+from connect import *
 
 app = FastAPI()
 

@@ -2,7 +2,7 @@ from typing import TypedDict, Optional
 from pymongo import MongoClient
 from schema import Schema
 from pymongo.collection import Collection
-from define_schema import assest_schema
+from connect import assest_schema
 
 class Assest:
     def __init__(self, collection: Collection):

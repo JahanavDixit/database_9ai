@@ -3,7 +3,7 @@ from typing import TypedDict, Optional
 from pymongo import MongoClient
 from schema import Schema
 from pymongo.collection import Collection
-from define_schema import assistant_schema
+from connect import assistant_schema
 
 class Assistant:
     def __init__(self, id:str, name:str , value:int ):

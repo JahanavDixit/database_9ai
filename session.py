@@ -2,7 +2,7 @@ from typing import TypedDict, Optional
 from pymongo import MongoClient
 from schema import Schema
 from pymongo.collection import Collection
-from define_schema import session_schema
+from connect import session_schema
 
 class Session:
     def __init__(self, id:str, name:str , value:int ):

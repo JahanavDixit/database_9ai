@@ -2,7 +2,7 @@ from typing import TypedDict, Optional
 from pymongo import MongoClient
 from schema import Schema
 from pymongo.collection import Collection
-from define_schema import channel_schema
+from connect import channel_schema
 
 
 class Channel:
